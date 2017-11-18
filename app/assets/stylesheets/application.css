@@ -1,15 +1,61 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html{
+    font-family:Arial,Helvetica, sans-serif;
+    background-color:#e6f7ff;
+}
+    .container{
+        width:80%;
+        margin:auto ;
+    }
+    .time-estimate{ font-weight:bold;
+                    font-size:12px;
+                    font-style: oblique;
+                    border-radius: 60px;
+                    padding:2px 8px 2px 8px;
+                    background-color: #99e7ff;
+                    border:2px solid #005780;
+    }
+    li{ background-color: #80ccff;
+        margin-bottom: 10px;
+        padding:5px 10px 5px 10px;
+        border:2px solid black;
+        border-radius:5px;
+        font-weight: bold;
+        text-align:left;
+    }
+    h1{text-align:center;
+    }
+    ul{
+        list-style: none;
+        padding:5px;
+        margin:15px;
+        background-color: #ccefff;
+        box-shadow:15px 10px 10px #cccccc; 
+        
+    }
+    #homework-gif{ width: 80px;}
+    #motivation{ width:200px;}
+    
+    a{
+    text-decoration: none;
+    color:black;
+    vertical-align:baseline; 
+    padding:5px;
+}
+#goback_button{
+    background-color:#0066cc;
+}
+#goback_button:hover{
+    background: #80bfff;
+}
+#delete_button{
+    background-color: #0073e6;
+}
+#delete_button:hover{
+    background:#80bfff;
+}
+#edit_button{
+    background-color: #0080ff;
+}
+#edit_button:hover{
+    background:#80bfff;
+}
