@@ -23,6 +23,7 @@ html{
         text-align:left;
     }
     h1{text-align:center;
+    font-size: 40px;
     }
     header{text-align:center;
     
@@ -35,11 +36,13 @@ html{
         box-shadow:15px 10px 10px #cccccc; 
         
     }
-    #homework-gif{ width: 80px;}
+    #homework-gif{ width: 70px;
+        vertical-align: -15px;
+    }
     #motivation{ width:200px;}
     #molang-gif{width:100px;
     height:75px;
-    vertical-align: -25px;
+    vertical-align: -35px;
     }
     a{
     text-decoration: none;
