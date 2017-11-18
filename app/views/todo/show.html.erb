@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="show.css">
         </head>
             <body>
+                
                 <h1> <%=@todo_description%> </h1>
+                <h3>Todo #<%= params[:id] %></h3>
                 <span> <%=@todo_pomodoro_estimate%> </span>
                 <input type="checkbox">
                 <a id="edit_button" href="#"> Edit</a>
