@@ -37,7 +37,10 @@ html{
     }
     #homework-gif{ width: 80px;}
     #motivation{ width:200px;}
-    
+    #molang-gif{width:100px;
+    height:75px;
+    vertical-align: -25px;
+    }
     a{
     text-decoration: none;
     color:black;
