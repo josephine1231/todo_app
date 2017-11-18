@@ -24,6 +24,9 @@ html{
     }
     h1{text-align:center;
     }
+    header{text-align:center;
+    
+    }
     ul{
         list-style: none;
         padding:5px;
