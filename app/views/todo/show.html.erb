@@ -3,6 +3,6 @@
  <span> <%=@todo.pomodoro_estimate%> </span>
  <input type="checkbox">
     <a id="edit_button" href="/todo/edit/<%=@todo.id%>"> Edit</a>
-    <a id="delete_button" href="#"> Delete</a>
+    <a id="delete_button" href="/todo/destroy/<%=@todo.id%>"> Delete</a>
     <a id="goback_button" href="/todo/index"> Go Back</a>
     
