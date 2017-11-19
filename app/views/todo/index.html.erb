@@ -17,36 +17,16 @@
                     <tr>
                         <td>
                             <img id="motivation" src="https://media.giphy.com/media/pJu3xzRa2PzTq/giphy.gif"> </img>
+                    <% @todos.each do |todo| %>
                 <li>
                     <input type="checkbox">
-                    <a href="show/1">
-                Essay</a>
-                    <span class="time-estimate"> 2 hours </span>
+                    <a href="show/<%=todo.id%>">
+                    <%=todo.description%> 
+                    </a>
+                    <span class="time-estimate"> <%=todo.pomodoro_estimate%> </span>
                     
                 </li>
-                <li> 
-                    <input type="checkbox">
-                    <a href="show/2">
-                Project </a>
-                    <span class="time-estimate"> 4 hours </span>
-                </li>
-                <li> 
-                    <input type="checkbox">
-                <a href="show/3"> 
-                Reading</a> 
-                    <span class="time-estimate"> 5 hours </span>
-                </li>
-                <li> 
-                    <input type="checkbox">
-                <a href="show/4">
-                Extra credit </a>
-                    <span class="time-estimate"> 1 hour</span>
-                </li>
-                <li> 
-                    <input type="checkbox">
-                <a href="show/5">Notebook</a>
-                    <span class="time-estimate"> 1 hour </span>
-                </li>
+                    <% end %>
             </ul>
             <div id="new_todo">
             <input id="input_item" type="text" placeholder="Add new to do..." >
