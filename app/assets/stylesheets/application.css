@@ -39,14 +39,16 @@ html{
     #homework-gif{ width: 70px;
         vertical-align: -15px;
     }
-    #motivation{ width:200px;}
+    #motivation{ width:200px;
+    height:200px;
+    }
     #molang-gif{width:100px;
     height:75px;
     vertical-align: -35px;
     }
-    #fighting-gif{width:70px;
-    height:40px;
-    vertical-align: -15px;
+    #fighting-gif{width:80px;
+    height:50px;
+    vertical-align: -25px;
     }
     a{
     text-decoration: none;

@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-    <html>
-        <head> <title> Show page</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="show.css">
-        </head>
-            <body>
+ <h1> <%=@todo.description%> </h1>
+ <h3>Todo #<%= params[:id] %></h3>
+ <span> <%=@todo.pomodoro_estimate%> </span>
+ <input type="checkbox">
+    <a id="edit_button" href="/todo/edit/<%=@todo.id%>"> Edit</a>
+    <a id="delete_button" href="#"> Delete</a>
+    <a id="goback_button" href="/todo/index"> Go Back</a>
     
-                
-                <h1> <%=@todo.description%> </h1>
-                <h3>Todo #<%= params[:id] %></h3>
-                <span> <%=@todo.pomodoro_estimate%> </span>
-                <input type="checkbox">
-                <a id="edit_button" href="#"> Edit</a>
-                <a id="delete_button" href="#"> Delete</a>
-                <a id="goback_button" href="/todo/index"> Go Back</a>
-
-            </body>
-            
-        <iframe src="https://giphy.com/embed/143M0XhHbjXDpu" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/aww-143M0XhHbjXDpu"></a></p>
-    </html>
