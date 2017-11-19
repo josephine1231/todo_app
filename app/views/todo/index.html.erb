@@ -20,7 +20,7 @@
                     <% @todos.each do |todo| %>
                 <li>
                     <input type="checkbox">
-                    <a href="show/<%=todo.id%>">
+                    <a href="/todo/show/<%=todo.id%>">
                     <%=todo.description%> 
                     </a>
                     <span class="time-estimate"> <%=todo.pomodoro_estimate%> </span>
@@ -29,9 +29,7 @@
                     <% end %>
             </ul>
             <div id="new_todo">
-            <input id="input_item" type="text" placeholder="Add new to do..." >
-            <input id="input_time" type="number" placeholder="Estimated time...">
-            <input id="input_button" type="submit" value="Add"
+            <a id="input_button" href="/todo/new">Add New</a>
             </div>
          <img id="fighting-gif" src="https://media.giphy.com/media/CigTY61rf100U/giphy.gif"> </img>
             </div>
